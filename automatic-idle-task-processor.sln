@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "automatic-idle-task-processor", "automatic-idle-task-processor\automatic-idle-task-processor.csproj", "{543DD8B5-1CDB-404D-820B-64A0B58FDC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{543DD8B5-1CDB-404D-820B-64A0B58FDC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543DD8B5-1CDB-404D-820B-64A0B58FDC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543DD8B5-1CDB-404D-820B-64A0B58FDC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543DD8B5-1CDB-404D-820B-64A0B58FDC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F9D8DCD-4B14-49DF-BB71-3D2EDD889196}
+	EndGlobalSection
+EndGlobal
