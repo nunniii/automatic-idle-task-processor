@@ -9,7 +9,7 @@ namespace automatic_idle_task_processor
     {
         static void RunRundll()
         {
-            Process.Start("..\\..\\rundll32.bat");
+            Process.Start(".\\rundll32.bat");
         }
 
         static void Main(string[] args)
