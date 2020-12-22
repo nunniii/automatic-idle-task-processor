@@ -9,6 +9,8 @@ namespace automatic_idle_task_processor
     {
         static void RunRundll()
         {
+            // Process.Start("..\\rundll32.bat");
+            // Process.Start(".\\rundll32.bat"); - Compilado.
             Process.Start(".\\rundll32.bat");
         }
 
@@ -16,8 +18,11 @@ namespace automatic_idle_task_processor
         {
             while(true)
             {
+                DateTime thisDay = DateTime.Today;
+
                 RunRundll();
                 Thread.Sleep(TimeSpan.FromMinutes(0.5));
+                Console.WriteLine($"{thisDay.ToString()} - Reajustado.");
             }
         }
     }
