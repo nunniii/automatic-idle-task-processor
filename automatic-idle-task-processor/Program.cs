@@ -15,6 +15,8 @@ namespace automatic_idle_task_processor
 
             Process runRundll = new Process();
             runRundll.StartInfo.FileName = "..\\rundll32.bat";
+
+            // Ocultar console de Process.Start
             runRundll.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             runRundll.StartInfo.CreateNoWindow = true;
         }
