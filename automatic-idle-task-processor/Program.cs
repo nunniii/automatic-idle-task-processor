@@ -10,15 +10,7 @@ namespace automatic_idle_task_processor
     {
         static void RunRundll()
         {
-            // Process.Start("..\\rundll32.bat");
-            // Process.Start(".\\rundll32.bat"); - Compilado.
-
-            Process runRundll = new Process();
-            runRundll.StartInfo.FileName = ".\\rundll32.bat";
-
-            // Ocultar console de Process.Start
-            runRundll.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            runRundll.StartInfo.CreateNoWindow = true;
+            Process.Start(".\\hide.vbs");
         }
 
         static void Main(string[] args)
@@ -42,7 +34,8 @@ namespace automatic_idle_task_processor
             while(true)
             {
                 RunRundll();
-                Thread.Sleep(TimeSpan.FromMinutes(0.5));
+                Thread.Sleep(TimeSpan.FromMinutes(0.5)); // default = 0.5
+                Console.WriteLine("i");
 
                 
             }
