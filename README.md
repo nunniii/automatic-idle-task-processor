@@ -36,5 +36,5 @@ Caso opte por instalar a aplicação, acesse a página [releases](https://github
 
 1. Você precisará de acesso do administrador para realizar a instalação.
 2. Por favor, instale os arquivos para uma pasta que você tenha permissão de acesso total. Por exemplo, 'Program Files' não pode ser usada. É um problema que ainda não foi relatado.
-3. Caso haja erros, por gentileza reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues) detalhadamente.
-
+3. Caso haja erros no momento da instalação, por gentileza reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues) detalhadamente.
+4. Para verificar se o app está verdadeiramente funcionando, verifique se o arquivo `log.log` dentre os arquivos de instalação está sendo atualizada conforme o horário de seu sistema, caso contrário reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues).
