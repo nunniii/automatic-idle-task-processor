@@ -32,7 +32,7 @@ Consulte [automatic-idle-processor.csproj](./automatic-idle-task-processor/autom
 
 ## Instalação 
 
-Caso opte por instalar a aplicação, acesse a página [releases](https://github.com/mateusnssp/automatic-idle-task-processor/releases) e baixe o pacote de instalação mais recente (`x.x.x-Auto-ITP.msi`).
+Caso opte por instalar a aplicação, acesse a página [releases](https://github.com/mateusnssp/automatic-idle-task-processor/releases/tag/v0.0.3) e baixe o pacote de instalação mais recente (`x.x.x-Auto-ITP.msi`).
 
 1. Você precisará de acesso do administrador para realizar a instalação.
 2. Por favor, instale os arquivos para uma pasta que você tenha permissão de acesso total. Por exemplo, 'Program Files' não pode ser usada. É um problema que ainda não foi relatado.
