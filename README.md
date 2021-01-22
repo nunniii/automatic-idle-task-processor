@@ -30,5 +30,11 @@ O aplicativo total é a pasta de saída (`bin`) criada com a construção: `dotn
 
 Consulte [automatic-idle-processor.csproj](./automatic-idle-task-processor/automatic-idle-task-processor.csproj) para mais informações técnicas.
 
+## Instalação 
 
+Caso opte por instalar a aplicação, acesse a página [releases](https://github.com/mateusnssp/automatic-idle-task-processor/releases) e baixe o pacote de instalação mais recente (`x.x.x-Auto-ITP.msi`).
+
+1. Você precisará de acesso do administrador para realizar a instalação.
+2. Por favor, instale os arquivos para uma pasta que você tenha permissão de acesso total. Por exemplo, 'Program Files' não pode ser usada. É um problema que ainda não foi relatado.
+3. Caso haja erros, por gentileza reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues) detalhadamente.
 
