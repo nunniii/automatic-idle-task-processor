@@ -3,7 +3,7 @@
 
 <img src="./assets/Heya-p-Engine.png" align="left" width=200px>
 
-[Downloads & Release notes](https://github.com/mateusnssp/automatic-idle-task-processor/releases)
+##### **[Downloads & Release notes](https://github.com/mateusnssp/automatic-idle-task-processor/releases)**
 
 No Windows é comum se deparar com travamentos no sistema, mesmo quando não acontece sobrecarga de recursos de memória e processamento. O que acontece na maioria dos casos, é uma ociosidade nas tarefas do sistema existente pela alta taxa de adiamentos de execução.
 O mesmo não é comum em sistemas como Linux, pois é uma alternativa que a Microsoft adotou para situações diversas.
