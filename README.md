@@ -12,6 +12,7 @@ O mesmo não é comum em sistemas como Linux, pois é uma alternativa que a Micr
 Essas tarefas ociosas podem ser controladas por uma API do sistema: `advapi32.dll, ProcessIdleTasks`, desenvolvida propriamente para forçar tarefas ociosas a serem executadas de imediato.
 
 <br/>
+
 O programa desenvolvido neste repositório nada mais faz, que executar em loop, a API com ajuda da ferramenta `rundll32.exe` disponibilizada pela Microsoft, localizada em `%windir%\system32`.
 
 ## Compilação
