@@ -2,6 +2,7 @@
 
 # Automatic Idle Task Processor
  Aparato para automatizar a otimização de tarefas ociosas do sistema Windows.
+ Este repositório abriga um dos motores de [Heya-p](https://github.com/Heya-p)
 
 <img src="./assets/Heya-p-Engine.png" align="left" width=200px>
 
