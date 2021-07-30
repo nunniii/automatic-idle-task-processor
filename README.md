@@ -23,7 +23,7 @@ Você pode utilizar o compilador C# da microsoft que já vem instalado no Window
 
 ### Compilação
 
-#### Compilador do .NET SDK (Recomendado)
+#### 📜 Compilador do .NET SDK (Recomendado)
 
 1. Clone ou faça o download deste repositório.
 
@@ -52,7 +52,7 @@ O aplicativo total é a pasta de saída (`bin`) criada com a construção: `dotn
 </ItemGroup>
 ```
 
-#### Compilador C# (`csc.exe`)
+#### 📜 Compilador C# (`csc.exe`) 
 
 1. Clone ou faça o download deste repositório.
 
