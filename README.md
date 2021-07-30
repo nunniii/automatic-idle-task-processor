@@ -37,7 +37,21 @@ dir /s csc.exe
 Você terá uma saída como essa:
 
 ```
-Pasta de C:\Windows\Microsoft.NET\Framework\v4.0.30319                                                                                                                                                                                                                                                                   07/12/2019  06:10         2.141.552 csc.exe                                                                                                                                 1 arquivo(s)      2.141.552 bytes                                                                                                                                                                                                                                                                           Pasta de C:\Windows\Microsoft.NET\Framework64\v4.0.30319                                                                                                                                                                                                                                                                 07/12/2019  06:10         2.759.232 csc.exe                                                                                                                                 1 arquivo(s)      2.759.232 bytes                                                                                                                                                                                                                                                                               Total de Arquivos na Lista:                                                                                                                                            2 arquivo(s)      4.900.784 bytes                                                                                                                            0 pasta(s)   716.785.459.200 bytes disponíveis                                                                                                    
+Pasta de C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+07/12/2019  06:10         2.141.552 csc.exe
+      1 arquivo(s)      2.141.552 bytes
+
+Pasta de C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+
+07/12/2019  06:10         2.759.232 csc.exe
+      1 arquivo(s)      2.759.232 bytes
+
+
+    Total de Arquivos na Lista:
+      2 arquivo(s)      4.900.784 bytes
+      0 pasta(s)   715.428.761.600 bytes disponíveis
+
 ```
 
 2. Opte por qualquer dos caminhos retornados no passo anterior e execute na pasta `automatic-idle-task-processor\`:
