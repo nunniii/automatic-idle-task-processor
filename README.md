@@ -1,7 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
 # Automatic Idle Task Processor
- Aparato para automatizar a otimização de tarefas ociosas do sistema Windows.
+ Aparato para automatizar a otimização de tarefas ociosas do sistema Windows mantendo os processos do sistema otimizados.
  Este repositório abriga um dos motores de [Heya-p](https://github.com/Heya-p).
 
 <img src="./assets/Heya-p-Engine.png" align="left" width=200px>
