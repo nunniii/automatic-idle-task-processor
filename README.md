@@ -16,16 +16,45 @@ Essas tarefas ociosas podem ser controladas por uma API do sistema: `advapi32.dl
 
 O programa desenvolvido neste repositório nada mais faz, que executar em loop, a API com ajuda da ferramenta `rundll32.exe` disponibilizada pela Microsoft, localizada em `%windir%\system32`.
 
-## Como obter
+## Obtendo
 
 A compilação é a maneira mais recomendada para uso, como segue os passos a seguir. Mas caso prefira, siga o guia para uso do instalador.
+Você pode utilizar o compilador C# da microsoft que já vem instalado no Windows conforma os passos a seguir, mas recomendo fortemente que utilize o .NET SDK conforme também listado neste guia.
 
 ### Compilação
 
+#### Compilador do .NET SDK (Recomendado)
 
-#### Você pode utilizar o compilador C# da microsoft que já vem instalado no Windows conforma os passos a seguir, mas recomendo fortemente que utilize o .NET SDK conforme também listado neste guia.
+1. Clone ou faça o download deste repositório.
+
+1. Instale a versão recomendada pela microsoft do .NET em: [https://aka.ms/dotnet-download](https://aka.ms/dotnet-download)
+
+2. Na pasta do projeto (`automatic-idle-task-processor\automatic-idle-task-processor`), execute: 
+
+```
+dotnet build
+```
+
+O aplicativo total é a pasta de saída (`bin`) criada com a construção: `dotnet build`, que reúne todas as dependência necessárias como os scripts, conforme você pode ver detalhadamente em [automatic-idle-processor.csproj](./automatic-idle-task-processor/automatic-idle-task-processor.csproj):
+```
+<ItemGroup>
+    <None Include="log.log">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="rundll32.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+</ItemGroup>
+<ItemGroup>
+    <Content Include="hide.vbs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+</ItemGroup>
+```
 
 #### Compilador C# (`csc.exe`)
+
+1. Clone ou faça o download deste repositório.
 
 1. Você pode executar a instalação utilizando o compilador dotnet: procure onde está o arquivo `csc.exe` pelo cmd com:
 
@@ -63,34 +92,6 @@ Pasta de C:\Windows\Microsoft.NET\Framework64\v4.0.30319
 3. Pronto, apenas certifique-se de manter os arquivos `log.log`, `hide.vbs`, `rundll32.bat` e o executável gerado no mesmo diretório para que funcionem.
 É normal que `log.log` seja atualizado constantemente.
 
-
-
-#### .NET SDK
-
-1. Instale a versão recomendada pela microsoft do .NET em: [https://aka.ms/dotnet-download](https://aka.ms/dotnet-download)
-
-2. Na pasta do projeto (`automatic-idle-task-processor\automatic-idle-task-processor`), execute: 
-
-```
-dotnet build
-```
-
-O aplicativo total é a pasta de saída (`bin`) criada com a construção: `dotnet build`, que reúne todas as dependência necessárias como os scripts, conforme você pode ver detalhadamente em [automatic-idle-processor.csproj](./automatic-idle-task-processor/automatic-idle-task-processor.csproj):
-```
-<ItemGroup>
-    <None Include="log.log">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="rundll32.bat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-</ItemGroup>
-<ItemGroup>
-    <Content Include="hide.vbs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-</ItemGroup>
-```
 
 ### Instalador 
 
