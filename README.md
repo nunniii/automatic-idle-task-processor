@@ -1,4 +1,4 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) ![Dotnet v.4.7.2](https://img.shields.io/badge/dotnet%20v4.7.2-purple?logo=dotnet) ![For Windows Systems](https://img.shields.io/badge/-for%20Windows%20systems-blue?logo=Windows) 
 
 # Automatic Idle Task Processor
  Aparato para automatizar a otimização de tarefas ociosas do sistema Windows.
