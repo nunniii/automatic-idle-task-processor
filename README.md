@@ -8,17 +8,17 @@
 
 ##### **[Downloads & Release notes](https://github.com/mateusnssp/automatic-idle-task-processor/releases)**
 
-No Windows é comum se deparar com travamentos no sistema, mesmo quando não acontece sobrecarga de recursos de memória e processamento. O que acontece na maioria dos casos, é uma ociosidade nas tarefas do sistema existente pela alta taxa de adiamentos de execução.
-O mesmo não é comum em sistemas como Linux, pois é uma alternativa que a Microsoft adotou para situações diversas.
-Essas tarefas ociosas podem ser controladas por uma API do sistema: `advapi32.dll, ProcessIdleTasks`, desenvolvida propriamente para forçar tarefas ociosas a serem executadas de imediato.
+No Windows é comum se deparar com travamentos no sistema, mesmo quando não acontece sobrecarga de recursos de memória e processamento. O que acontece na maioria dos casos, é uma ociosidade nas tarefas do sistema consideravelmente excessivas existente pela alta taxa de adiamentos de execução ou o simples uso natural dos recursos de memória.
+Essas tarefas ociosas podem ser controladas por uma API do sistema: `advapi32.dll, ProcessIdleTasks`, desenvolvida propriamente para forçar tarefas ociosas a serem executadas de imediato. A finalidade aqui é equilibrar esse desbalanceamento no mesmo ritmo do sistema para deixá-lo o mais puro possível para que as tarefas tenham um ambiente mais saudável.
 
 <br/>
 
-O programa desenvolvido neste repositório nada mais faz, que executar em loop, a API com ajuda da ferramenta `rundll32.exe` disponibilizada pela Microsoft, localizada em `%windir%\system32`.
+O programa desenvolvido neste repositório nada mais faz, que a execução do controlador da API (`rundll32.exe` de `%windir%\system32`) recursivamente.
+
 
 ## Obtendo
 
-A compilação é a maneira mais recomendada para uso, como segue os passos a seguir. Mas caso prefira, siga o guia para uso do instalador.
+A compilação é a maneira mais recomendada para uso, como segue os passos a seguir. Mas caso prefira, siga o guia para uso do (instalador)[https://github.com/mateusnssn/automatic-idle-task-processor#instalador].
 
 ### Compilação
 
@@ -26,13 +26,14 @@ A compilação é a maneira mais recomendada para uso, como segue os passos a se
 
 1. Clone ou faça o download deste repositório.
 
-1. Instale a versão do .NET utilizada no projeto ([`v.4.7.2`](https://img.shields.io/badge/dotnet%20v4.7.2-purple?logo=dotnet)) em: [https://aka.ms/dotnet-download](https://aka.ms/dotnet-download)
+1. Instale a versão do .NET utilizada no projeto (v.4.7.2) em: [https://aka.ms/dotnet-download](https://aka.ms/dotnet-download)
 
-2. Na pasta do projeto (`automatic-idle-task-processor\automatic-idle-task-processor`), execute: `dotnet build`
+2. Na pasta do projeto, execute: `dotnet build`
 
 
 
-O aplicativo total é a pasta de saída (`bin`) criada com a construção: `dotnet build`, que reúne todas as dependência necessárias como os scripts, conforme você pode ver detalhadamente em [automatic-idle-processor.csproj](./automatic-idle-task-processor/automatic-idle-task-processor.csproj):
+O aplicativo total é o diretório de saída (`/bin`) que reúne todas as dependência necessárias como os scripts, conforme você pode ver detalhadamente em no arquivo `automatic-idle-processor.csproj`
+
 ```
 <ItemGroup>
     <None Include="log.log">
@@ -60,7 +61,7 @@ cd C:\Windows\Microsoft.NET
 dir /s csc.exe
 ```
 
-Você terá uma saída como essa:
+Você terá uma saída semelhante a essa:
 
 ```
 Pasta de C:\Windows\Microsoft.NET\Framework\v4.0.30319
@@ -82,14 +83,14 @@ Pasta de C:\Windows\Microsoft.NET\Framework64\v4.0.30319
 
 ```
 
-2. Opte por qualquer dos caminhos retornados (trecho acima de dos sinais `^^^`) no passo anterior e execute no diretório `automatic-idle-task-processor\`:
+2. Opte por qualquer dos um caminhos retornados no passo anterior e execute no diretório `automatic-idle-task-processor\`:
 
 ```
   {diretório-retornado}\csc.exe Program.cs
 ```
 
-3. Pronto, apenas certifique-se de manter os arquivos `log.log`, `hide.vbs`, `rundll32.bat` e o executável gerado no mesmo diretório para que funcionem.
-É normal que `log.log` seja atualizado constantemente.
+3. Pronto, apenas certifique-se de manter os arquivos hide.vbs, rundll32.bat e o executável do programa no mesmo diretório para que funcionem.
+É normal que log.log seja atualizado constantemente e através dele você pode verificar se está tudo funcionando corretamente.
 
 
 ### Instalador 
@@ -99,10 +100,9 @@ Caso opte por instalar a aplicação sem a compilar, acesse [releases](https://g
 1. A instalação pode solicitar permissão de acesso.
 2. Por favor, instale os arquivos para uma pasta que você tenha permissão de acesso total. Por exemplo, 'Program Files' não pode ser usada. É um problema que ainda não foi resolvido.
 3. Caso haja erros no momento da instalação, por gentileza reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues) detalhadamente.
-4. Para verificar se o app está verdadeiramente funcionando, verifique se o arquivo `log.log` dentre os arquivos de instalação está sendo atualizado de acordo com o horário de seu sistema, caso contrário, por favor reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues).
 
-
-
+<hr>
+Para verificar se o app está verdadeiramente funcionando, verifique se o arquivo log.log dentre os arquivos de instalação está sendo atualizado de acordo com o horário de seu sistema, caso contrário, por gentileza reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues).
 
 
 
