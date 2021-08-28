@@ -2,7 +2,7 @@
 
 # Automatic Idle Task Processor
  Aparato para automatizar a otimização de tarefas ociosas do sistema Windows.
- Este repositório abriga um dos motores de [Heya-p](https://github.com/Heya-p).
+ Este repositório é uma continuação de [mateusnssn/automatic-idle-task-processor](https://github.com/mateusnssn/automatic-idle-task-processor).
 
 ##### **[Downloads & Release notes](https://github.com/Heya-p/automatic-idle-task-processor/releases)**
 
