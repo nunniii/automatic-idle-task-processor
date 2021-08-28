@@ -13,19 +13,23 @@ namespace automatic_idle_task_processor
     static class Program
     {
 
-        static void RunRundll()
+
+
+
+        public static void RunRundll()
         {
             Process.Start(".\\hide.vbs");
         }
 
         static void ITP()
         {
-            while (true)
-            {
+            while (true) 
+            { 
                 RunRundll();
                 Thread.Sleep(TimeSpan.FromMinutes(0.5)); // default = 0.5
                 Console.WriteLine("i");
             }
+
         }
 
 
@@ -51,12 +55,17 @@ namespace automatic_idle_task_processor
             ShowWindow(handle, SW_SHOW);
 
 
+
             Thread core = new Thread(new ThreadStart(ITP));
             core.Start();
 
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form1 Form = new Form1();
+            Application.Run(Form);
+
         }
     }
 }
