@@ -2,9 +2,9 @@
 
 # Automatic Idle Task Processor
  Aparato para automatizar a otimização de tarefas ociosas do sistema Windows.
- Este repositório abriga um dos motores de [Heya-p](https://github.com/Heya-p).
+ Este repositório é uma continuação de [mateusnssn/automatic-idle-task-processor](https://github.com/mateusnssn/automatic-idle-task-processor).
 
-##### **[Downloads & Release notes](https://github.com/mateusnssp/automatic-idle-task-processor/releases)**
+##### **[Downloads & Release notes](https://github.com/Heya-p/automatic-idle-task-processor/releases)**
 
 <img src="./assets/Heya-p-Engine.png" align="left" width=200px>
 
@@ -36,7 +36,7 @@ Algumas funcionalidades ainda estão em desenvolvimento dependendo da versão e 
 
 ## Obtendo
 
-A compilação é a maneira mais recomendada para uso, como segue os passos a seguir. Mas caso prefira, siga o guia para uso do (instalador)[https://github.com/mateusnssn/automatic-idle-task-processor#instalador].
+A compilação é a maneira mais recomendada para uso, como segue os passos a seguir. Mas caso prefira, siga o guia para uso do (instalador)[https://github.com/Heya-p/automatic-idle-task-processor#instalador].
 
 ### Compilação
 
@@ -113,14 +113,14 @@ Pasta de C:\Windows\Microsoft.NET\Framework64\v4.0.30319
 
 ### Instalador 
 
-Caso opte por instalar a aplicação sem a compilar, acesse [releases](https://github.com/mateusnssp/automatic-idle-task-processor/releases/tag/v0.0.3) e baixe o pacote de instalação mais recente (`x.x.x-Auto-ITP.msi`).
+Caso opte por instalar a aplicação sem a compilar, acesse [releases](https://github.com/Heya-p/automatic-idle-task-processor/releases/tag/v.0.0.1) e baixe o pacote de instalação mais recente (`setup.zip`).
 
 1. A instalação pode solicitar permissão de acesso.
 2. Por favor, instale os arquivos para uma pasta que você tenha permissão de acesso total. Por exemplo, 'Program Files' não pode ser usada. É um problema que ainda não foi resolvido.
-3. Caso haja erros no momento da instalação, por gentileza reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues) detalhadamente.
+3. Caso haja erros no momento da instalação, por gentileza reporte em [issues](https://github.com/Heya-p/automatic-idle-task-processor/issues) detalhadamente.
 
 <hr>
-Para verificar se o app está verdadeiramente funcionando, verifique se o arquivo log.log dentre os arquivos de instalação está sendo atualizado de acordo com o horário de seu sistema, caso contrário, por gentileza reporte em [issues](https://github.com/mateusnssp/automatic-idle-task-processor/issues).
+Para verificar se o app está verdadeiramente funcionando, verifique se o arquivo log.log dentre os arquivos de instalação está sendo atualizado de acordo com o horário de seu sistema, caso contrário, por gentileza reporte em [issues](https://github.com/Heya-p/automatic-idle-task-processor/issues).
 
 <br/><br/>
 
