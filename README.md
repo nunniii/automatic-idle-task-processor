@@ -6,8 +6,9 @@
 
 ##### **[Downloads & Release notes](https://github.com/mateusnssp/automatic-idle-task-processor/releases)**
 
-<img src="./assets/Heya-p-Engine.png" align="left" width=200px>
+<!-- <img src="./assets/Heya-p-Engine.png" align="left" width=200px> -->
 
+<img src="./assets/Capturar.PNG" align="left">
 
 
 No Windows é comum se deparar com travamentos no sistema mesmo quando não acontece sobrecarga de recursos de memória e processamento. O que acontece na maioria dos casos, é uma ociosidade nas tarefas do sistema consideravelmente excessivas existente pela alta taxa de adiamentos de execução ou o simples uso natural dos recursos de memória.
@@ -16,6 +17,8 @@ Essas tarefas ociosas podem ser controladas por uma API do sistema: `advapi32.dl
 <br/>
 
 O programa desenvolvido neste repositório nada mais faz que a execução do controlador da API (`rundll32.exe` de `%windir%\system32`) recursivamente.
+
+
 
 
 ## Obtendo
