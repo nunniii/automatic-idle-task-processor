@@ -19,7 +19,7 @@ O programa desenvolvido neste repositório nada mais faz que a execução do con
 
 ## Rercursos
 
-<img src="./assets/Capturar.PNG" align="right" height=230px>
+<img src="./assets/Captura.PNG" align="right" height=230px>
 
 Utilize o system tray para controlar o motor.
 
