@@ -20,7 +20,7 @@ O programa desenvolvido neste repositório nada mais faz que a execução do con
 
 ## Obtendo
 
-A compilação é a maneira mais recomendada para uso, como segue os passos a seguir. Mas caso prefira, siga o guia para uso do (instalador)[https://github.com/mateusnssn/automatic-idle-task-processor#instalador].
+A compilação é a maneira mais recomendada para uso, como segue os passos a seguir. Mas caso prefira, siga o guia para uso do [instalador](https://github.com/mateusnssn/automatic-idle-task-processor#instalador).
 
 ### Compilação
 
